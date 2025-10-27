@@ -1,5 +1,3 @@
-# atividade1.py
-# Operadores aritméticos - calcula várias operações entre dois números
 def main():
     try:
         num1 = float(input("Digite o primeiro número: "))
@@ -12,7 +10,6 @@ def main():
     diferenca = num1 - num2
     multiplicacao = num1 * num2
 
-    # tratar divisão por zero
     if num2 != 0:
         divisao = num1 / num2
         resto = num1 % num2
@@ -23,4 +20,5 @@ def main():
     print("\nResultados:")
     print(f"Soma: {soma}")
     print(f"Subtração (diferença): {diferenca}")
+
     print(f"Multiplicação: {multiplicacao}")
